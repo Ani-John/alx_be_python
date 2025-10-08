@@ -21,7 +21,7 @@ def main():
         else:
             print("degree is invalid")
     except ValueError:
-        print("temperature is invalid")
+        print("Invalid temperature. Please enter a numeric value.")
         
 if __name__ == "__main__":
     main()
