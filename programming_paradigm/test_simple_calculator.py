@@ -1,9 +1,10 @@
 import unittest
+from simple_calculator import SimpleCalculator
 
-class TestCal(unittest.TestCase):
+class TestSimpleCalculator(unittest.TestCase):
     
     def setUp(self):
-        self.calculator = Cal()
+        self.calculator = SimpleCalculator()
     
     def test_add(self):
         self.assertEqual(self.calculator.add(-1, -5), -6)
