@@ -26,10 +26,8 @@ class PrintBook(Book):
 
 
 class Library:
-    def __init__(self, books=None):
-        if books is None:
-            books = []
-        self.books = books
+    def __init__(self):
+        self.books = []
 
     def add_book(self, book):
         """Adds a Book, EBook, or PrintBook instance to the library."""
